@@ -13,7 +13,7 @@
 #include <iostream>
 
 class PID{
-    public:
+ public:
     /**
      * @brief Pid class Constructor to initiate the attributes
      * 
@@ -45,7 +45,7 @@ class PID{
       */
      double runPid(double set_point, double current_state);
 
-   private:
+ private:
     /**
     * @brief The proportional gain parameter for the PID controller.
     */
@@ -75,5 +75,4 @@ class PID{
     * @brief The integral of the error over time, used for the integral term.
     */
      double integral;
-
 };

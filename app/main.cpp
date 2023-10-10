@@ -12,8 +12,8 @@
 #include <iostream>
 #include "pid.hpp"
 
-int main()
-{
+int main(){
+  
   PID pid_cont = PID(0.2, 0.1, 0.01, 0.1);
   double final_state = pid_cont.runPid(120.0, 0.0);
   std::cout << "Final State is: " << final_state << std::endl;
