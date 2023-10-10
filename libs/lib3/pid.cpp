@@ -1,3 +1,14 @@
+/**
+ * @file pid.cpp
+ * @author Abraruddin Syed (syed029@umd.edu)
+ * @brief implementaion of pid.hpp.
+ * @version 0.1
+ * @date 2023-10-10
+ * 
+ * @copyright Copyright (c) 2023
+ * 
+ */
+
 #include "pid.hpp"
 #include <iostream>
 
@@ -11,7 +22,7 @@ double PID::calculateUpdate(double set_point, double current_state) {
 
     // Integrate the error over time.
     integral += error * time_step;
-    
+
     // Calculate the integral term of the PID controller.
     double Iout = key_integral * integral;
 
@@ -31,10 +42,12 @@ double PID::calculateUpdate(double set_point, double current_state) {
 double PID::runPid(double set_point, double current_state) {
     // Perform a loop for a fixed number of iterations (e.g., 100 times).
     for (int i = 0; i < 100; i++) {
-        // Calculate and accumulate the control output by calling calculateUpdate.
+        /*Calculate and accumulate the 
+           control output by calling calculateUpdate.*/
         current_state += calculateUpdate(set_point, current_state);
     }
-    // Return the final state after the loop, which represents the controlled system's response.
+    /*Return the final state after the loop, 
+        which represents the controlled system's response.*/
     return current_state;
 }
 
