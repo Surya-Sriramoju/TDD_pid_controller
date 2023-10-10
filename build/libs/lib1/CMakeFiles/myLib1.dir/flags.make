@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/surya-software/pid-controller/libs/lib1/.
+CXX_INCLUDES = -I/home/syed/808X_week4/TDD_pid_controller/libs/lib1/.
 
 CXX_FLAGS =  -g --coverage -fprofile-abs-path -g -std=gnu++14
 

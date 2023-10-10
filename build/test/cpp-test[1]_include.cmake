@@ -1,5 +1,5 @@
-if(EXISTS "/home/surya-software/pid-controller/build/test/cpp-test[1]_tests.cmake")
-  include("/home/surya-software/pid-controller/build/test/cpp-test[1]_tests.cmake")
+if(EXISTS "/home/syed/808X_week4/TDD_pid_controller/build/test/cpp-test[1]_tests.cmake")
+  include("/home/syed/808X_week4/TDD_pid_controller/build/test/cpp-test[1]_tests.cmake")
 else()
   add_test(cpp-test_NOT_BUILT cpp-test_NOT_BUILT)
 endif()

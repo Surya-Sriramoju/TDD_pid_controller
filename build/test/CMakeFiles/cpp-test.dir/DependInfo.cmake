@@ -8,16 +8,16 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/surya-software/pid-controller/test/main.cpp" "test/CMakeFiles/cpp-test.dir/main.cpp.o" "gcc" "test/CMakeFiles/cpp-test.dir/main.cpp.o.d"
-  "/home/surya-software/pid-controller/test/test.cpp" "test/CMakeFiles/cpp-test.dir/test.cpp.o" "gcc" "test/CMakeFiles/cpp-test.dir/test.cpp.o.d"
+  "/home/syed/808X_week4/TDD_pid_controller/test/main.cpp" "test/CMakeFiles/cpp-test.dir/main.cpp.o" "gcc" "test/CMakeFiles/cpp-test.dir/main.cpp.o.d"
+  "/home/syed/808X_week4/TDD_pid_controller/test/test.cpp" "test/CMakeFiles/cpp-test.dir/test.cpp.o" "gcc" "test/CMakeFiles/cpp-test.dir/test.cpp.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/surya-software/pid-controller/build/_deps/googletest-build/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
-  "/home/surya-software/pid-controller/build/libs/lib1/CMakeFiles/myLib1.dir/DependInfo.cmake"
-  "/home/surya-software/pid-controller/build/libs/lib2/CMakeFiles/myLib2.dir/DependInfo.cmake"
-  "/home/surya-software/pid-controller/build/libs/lib3/CMakeFiles/myLib3.dir/DependInfo.cmake"
+  "/home/syed/808X_week4/TDD_pid_controller/build/_deps/googletest-build/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
+  "/home/syed/808X_week4/TDD_pid_controller/build/libs/lib1/CMakeFiles/myLib1.dir/DependInfo.cmake"
+  "/home/syed/808X_week4/TDD_pid_controller/build/libs/lib2/CMakeFiles/myLib2.dir/DependInfo.cmake"
+  "/home/syed/808X_week4/TDD_pid_controller/build/libs/lib3/CMakeFiles/myLib3.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

@@ -1,5 +1,5 @@
 app/CMakeFiles/shell-app.dir/main.cpp.o: \
- /home/surya-software/pid-controller/app/main.cpp \
+ /home/syed/808X_week4/TDD_pid_controller/app/main.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -144,4 +144,4 @@ app/CMakeFiles/shell-app.dir/main.cpp.o: \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc \
- /home/surya-software/pid-controller/libs/lib3/./pid.hpp
+ /home/syed/808X_week4/TDD_pid_controller/libs/lib3/./pid.hpp

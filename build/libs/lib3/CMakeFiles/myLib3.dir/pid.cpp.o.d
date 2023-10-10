@@ -1,7 +1,7 @@
 libs/lib3/CMakeFiles/myLib3.dir/pid.cpp.o: \
- /home/surya-software/pid-controller/libs/lib3/pid.cpp \
+ /home/syed/808X_week4/TDD_pid_controller/libs/lib3/pid.cpp \
  /usr/include/stdc-predef.h \
- /home/surya-software/pid-controller/libs/lib3/pid.hpp \
+ /home/syed/808X_week4/TDD_pid_controller/libs/lib3/pid.hpp \
  /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

@@ -8,14 +8,14 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/surya-software/pid-controller/app/main.cpp" "app/CMakeFiles/shell-app.dir/main.cpp.o" "gcc" "app/CMakeFiles/shell-app.dir/main.cpp.o.d"
+  "/home/syed/808X_week4/TDD_pid_controller/app/main.cpp" "app/CMakeFiles/shell-app.dir/main.cpp.o" "gcc" "app/CMakeFiles/shell-app.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/surya-software/pid-controller/build/libs/lib1/CMakeFiles/myLib1.dir/DependInfo.cmake"
-  "/home/surya-software/pid-controller/build/libs/lib2/CMakeFiles/myLib2.dir/DependInfo.cmake"
-  "/home/surya-software/pid-controller/build/libs/lib3/CMakeFiles/myLib3.dir/DependInfo.cmake"
+  "/home/syed/808X_week4/TDD_pid_controller/build/libs/lib1/CMakeFiles/myLib1.dir/DependInfo.cmake"
+  "/home/syed/808X_week4/TDD_pid_controller/build/libs/lib2/CMakeFiles/myLib2.dir/DependInfo.cmake"
+  "/home/syed/808X_week4/TDD_pid_controller/build/libs/lib3/CMakeFiles/myLib3.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

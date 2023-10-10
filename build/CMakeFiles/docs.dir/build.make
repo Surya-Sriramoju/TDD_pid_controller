@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/surya-software/pid-controller
+CMAKE_SOURCE_DIR = /home/syed/808X_week4/TDD_pid_controller
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/surya-software/pid-controller/build
+CMAKE_BINARY_DIR = /home/syed/808X_week4/TDD_pid_controller/build
 
 # Utility rule file for docs.
 
@@ -67,9 +67,9 @@ include CMakeFiles/docs.dir/compiler_depend.make
 include CMakeFiles/docs.dir/progress.make
 
 CMakeFiles/docs: Doxyfile.docs
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/surya-software/pid-controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generate API documentation for docs"
-	cd /home/surya-software/pid-controller && /usr/bin/cmake -E make_directory /home/surya-software/pid-controller/docs
-	cd /home/surya-software/pid-controller && /usr/bin/doxygen /home/surya-software/pid-controller/build/Doxyfile.docs
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/syed/808X_week4/TDD_pid_controller/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generate API documentation for docs"
+	cd /home/syed/808X_week4/TDD_pid_controller && /usr/bin/cmake -E make_directory /home/syed/808X_week4/TDD_pid_controller/docs
+	cd /home/syed/808X_week4/TDD_pid_controller && /usr/bin/doxygen /home/syed/808X_week4/TDD_pid_controller/build/Doxyfile.docs
 
 docs: CMakeFiles/docs
 docs: CMakeFiles/docs.dir/build.make
@@ -84,6 +84,6 @@ CMakeFiles/docs.dir/clean:
 .PHONY : CMakeFiles/docs.dir/clean
 
 CMakeFiles/docs.dir/depend:
-	cd /home/surya-software/pid-controller/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/surya-software/pid-controller /home/surya-software/pid-controller /home/surya-software/pid-controller/build /home/surya-software/pid-controller/build /home/surya-software/pid-controller/build/CMakeFiles/docs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/syed/808X_week4/TDD_pid_controller/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/syed/808X_week4/TDD_pid_controller /home/syed/808X_week4/TDD_pid_controller /home/syed/808X_week4/TDD_pid_controller/build /home/syed/808X_week4/TDD_pid_controller/build /home/syed/808X_week4/TDD_pid_controller/build/CMakeFiles/docs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/docs.dir/depend
 

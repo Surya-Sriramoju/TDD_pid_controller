@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/surya-software/pid-controller/libs/lib2/src.cpp" "libs/lib2/CMakeFiles/myLib2.dir/src.cpp.o" "gcc" "libs/lib2/CMakeFiles/myLib2.dir/src.cpp.o.d"
+  "/home/syed/808X_week4/TDD_pid_controller/libs/lib2/src.cpp" "libs/lib2/CMakeFiles/myLib2.dir/src.cpp.o" "gcc" "libs/lib2/CMakeFiles/myLib2.dir/src.cpp.o.d"
   )
 
 # Targets to which this target links.

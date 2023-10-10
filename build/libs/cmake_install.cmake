@@ -1,4 +1,4 @@
-# Install script for directory: /home/surya-software/pid-controller/libs
+# Install script for directory: /home/syed/808X_week4/TDD_pid_controller/libs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,16 +44,16 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/surya-software/pid-controller/build/libs/lib1/cmake_install.cmake")
+  include("/home/syed/808X_week4/TDD_pid_controller/build/libs/lib1/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/surya-software/pid-controller/build/libs/lib2/cmake_install.cmake")
+  include("/home/syed/808X_week4/TDD_pid_controller/build/libs/lib2/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/surya-software/pid-controller/build/libs/lib3/cmake_install.cmake")
+  include("/home/syed/808X_week4/TDD_pid_controller/build/libs/lib3/cmake_install.cmake")
 endif()
 
