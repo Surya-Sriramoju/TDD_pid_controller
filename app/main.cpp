@@ -10,7 +10,7 @@
  */
 
 #include <iostream>
-#include "../include/pid.hpp"
+#include "pid.hpp"
 
 int main()
 {

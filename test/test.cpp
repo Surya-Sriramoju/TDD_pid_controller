@@ -1,15 +1,15 @@
 #include <gtest/gtest.h>
-#include "lib1.hpp"
-#include "lib2.hpp"
+#include "pid.hpp"
 
-TEST(dummy_test, this_should_pass) {
-  EXPECT_EQ(1, 1);
+TEST(ComputeMethod, TEST) {
+  ASSERT_NEAR(120, PID(0.2, 0.1, 0.01, 0.1).runPid(120.0, 0.0), 0.5);
 }
 
-TEST(dummy_test, this_should_pass_too) {
-  EXPECT_EQ(my_function1(3), 3);
+TEST(ComputeMethod1, TEST2) {
+  ASSERT_NEAR(90, PID(0.2, 0.1, 0.01, 0.1).runPid(90.0, 10.0), 1);
 }
 
-TEST(dummy_test, this_will_fail) {
-  EXPECT_EQ(my_function2(3.2), 3.2);
+TEST(ComputeMethod2, TEST3) {
+  ASSERT_NEAR(200, PID(0.2, 0.1, 0.01, 0.1).runPid(200.0, 30.0), 0.5);
 }
+

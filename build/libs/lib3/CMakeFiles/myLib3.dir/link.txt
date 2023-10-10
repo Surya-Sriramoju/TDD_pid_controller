@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmyLib3.a CMakeFiles/myLib3.dir/pid.cpp.o
+/usr/bin/ranlib libmyLib3.a
