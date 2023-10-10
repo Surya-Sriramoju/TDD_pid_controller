@@ -1,0 +1,7 @@
+add_test( ComputeMethod.TEST /home/syed/808X_week4/TDD_pid_controller/build/test/cpp-test [==[--gtest_filter=ComputeMethod.TEST]==] --gtest_also_run_disabled_tests)
+set_tests_properties( ComputeMethod.TEST PROPERTIES WORKING_DIRECTORY /home/syed/808X_week4/TDD_pid_controller/build/test SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test( ComputeMethod1.TEST2 /home/syed/808X_week4/TDD_pid_controller/build/test/cpp-test [==[--gtest_filter=ComputeMethod1.TEST2]==] --gtest_also_run_disabled_tests)
+set_tests_properties( ComputeMethod1.TEST2 PROPERTIES WORKING_DIRECTORY /home/syed/808X_week4/TDD_pid_controller/build/test SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test( ComputeMethod2.TEST3 /home/syed/808X_week4/TDD_pid_controller/build/test/cpp-test [==[--gtest_filter=ComputeMethod2.TEST3]==] --gtest_also_run_disabled_tests)
+set_tests_properties( ComputeMethod2.TEST3 PROPERTIES WORKING_DIRECTORY /home/syed/808X_week4/TDD_pid_controller/build/test SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set( cpp-test_TESTS ComputeMethod.TEST ComputeMethod1.TEST2 ComputeMethod2.TEST3)
