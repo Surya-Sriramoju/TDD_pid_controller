@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/surya-software/pid-controller/build/_deps/googletest-src/googletest/include -I/home/surya-software/pid-controller/build/_deps/googletest-src/googletest
+CXX_INCLUDES = -I/home/syed/808X_week4/TDD_pid_controller/build/_deps/googletest-src/googletest/include -I/home/syed/808X_week4/TDD_pid_controller/build/_deps/googletest-src/googletest
 
 CXX_FLAGS = -g -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++14
 

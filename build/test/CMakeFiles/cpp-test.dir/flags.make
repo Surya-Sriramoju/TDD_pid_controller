@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/surya-software/pid-controller/include -I/home/surya-software/pid-controller/libs/lib1/. -I/home/surya-software/pid-controller/libs/lib2/. -I/home/surya-software/pid-controller/libs/lib3/. -isystem /home/surya-software/pid-controller/build/_deps/googletest-src/googletest/include -isystem /home/surya-software/pid-controller/build/_deps/googletest-src/googletest
+CXX_INCLUDES = -I/home/syed/808X_week4/TDD_pid_controller/include -I/home/syed/808X_week4/TDD_pid_controller/libs/lib1/. -I/home/syed/808X_week4/TDD_pid_controller/libs/lib2/. -I/home/syed/808X_week4/TDD_pid_controller/libs/lib3/. -isystem /home/syed/808X_week4/TDD_pid_controller/build/_deps/googletest-src/googletest/include -isystem /home/syed/808X_week4/TDD_pid_controller/build/_deps/googletest-src/googletest
 
 CXX_FLAGS =  -g --coverage -fprofile-abs-path -g -std=gnu++14
 

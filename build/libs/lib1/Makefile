@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/surya-software/pid-controller
+CMAKE_SOURCE_DIR = /home/syed/808X_week4/TDD_pid_controller
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/surya-software/pid-controller/build
+CMAKE_BINARY_DIR = /home/syed/808X_week4/TDD_pid_controller/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/surya-software/pid-controller/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/surya-software/pid-controller/build/CMakeFiles /home/surya-software/pid-controller/build/libs/lib1//CMakeFiles/progress.marks
-	cd /home/surya-software/pid-controller/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/lib1/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/surya-software/pid-controller/build/CMakeFiles 0
+	cd /home/syed/808X_week4/TDD_pid_controller/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/syed/808X_week4/TDD_pid_controller/build/CMakeFiles /home/syed/808X_week4/TDD_pid_controller/build/libs/lib1//CMakeFiles/progress.marks
+	cd /home/syed/808X_week4/TDD_pid_controller/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/lib1/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/syed/808X_week4/TDD_pid_controller/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/surya-software/pid-controller/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/lib1/clean
+	cd /home/syed/808X_week4/TDD_pid_controller/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/lib1/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,22 +158,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/surya-software/pid-controller/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/lib1/preinstall
+	cd /home/syed/808X_week4/TDD_pid_controller/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/lib1/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/surya-software/pid-controller/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/lib1/preinstall
+	cd /home/syed/808X_week4/TDD_pid_controller/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/lib1/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/surya-software/pid-controller/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/syed/808X_week4/TDD_pid_controller/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 libs/lib1/CMakeFiles/myLib1.dir/rule:
-	cd /home/surya-software/pid-controller/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/lib1/CMakeFiles/myLib1.dir/rule
+	cd /home/syed/808X_week4/TDD_pid_controller/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 libs/lib1/CMakeFiles/myLib1.dir/rule
 .PHONY : libs/lib1/CMakeFiles/myLib1.dir/rule
 
 # Convenience name for target.
@@ -182,7 +182,7 @@ myLib1: libs/lib1/CMakeFiles/myLib1.dir/rule
 
 # fast build rule for target.
 myLib1/fast:
-	cd /home/surya-software/pid-controller/build && $(MAKE) $(MAKESILENT) -f libs/lib1/CMakeFiles/myLib1.dir/build.make libs/lib1/CMakeFiles/myLib1.dir/build
+	cd /home/syed/808X_week4/TDD_pid_controller/build && $(MAKE) $(MAKESILENT) -f libs/lib1/CMakeFiles/myLib1.dir/build.make libs/lib1/CMakeFiles/myLib1.dir/build
 .PHONY : myLib1/fast
 
 src.o: src.cpp.o
@@ -190,7 +190,7 @@ src.o: src.cpp.o
 
 # target to build an object file
 src.cpp.o:
-	cd /home/surya-software/pid-controller/build && $(MAKE) $(MAKESILENT) -f libs/lib1/CMakeFiles/myLib1.dir/build.make libs/lib1/CMakeFiles/myLib1.dir/src.cpp.o
+	cd /home/syed/808X_week4/TDD_pid_controller/build && $(MAKE) $(MAKESILENT) -f libs/lib1/CMakeFiles/myLib1.dir/build.make libs/lib1/CMakeFiles/myLib1.dir/src.cpp.o
 .PHONY : src.cpp.o
 
 src.i: src.cpp.i
@@ -198,7 +198,7 @@ src.i: src.cpp.i
 
 # target to preprocess a source file
 src.cpp.i:
-	cd /home/surya-software/pid-controller/build && $(MAKE) $(MAKESILENT) -f libs/lib1/CMakeFiles/myLib1.dir/build.make libs/lib1/CMakeFiles/myLib1.dir/src.cpp.i
+	cd /home/syed/808X_week4/TDD_pid_controller/build && $(MAKE) $(MAKESILENT) -f libs/lib1/CMakeFiles/myLib1.dir/build.make libs/lib1/CMakeFiles/myLib1.dir/src.cpp.i
 .PHONY : src.cpp.i
 
 src.s: src.cpp.s
@@ -206,7 +206,7 @@ src.s: src.cpp.s
 
 # target to generate assembly for a file
 src.cpp.s:
-	cd /home/surya-software/pid-controller/build && $(MAKE) $(MAKESILENT) -f libs/lib1/CMakeFiles/myLib1.dir/build.make libs/lib1/CMakeFiles/myLib1.dir/src.cpp.s
+	cd /home/syed/808X_week4/TDD_pid_controller/build && $(MAKE) $(MAKESILENT) -f libs/lib1/CMakeFiles/myLib1.dir/build.make libs/lib1/CMakeFiles/myLib1.dir/src.cpp.s
 .PHONY : src.cpp.s
 
 # Help Target
@@ -237,6 +237,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/surya-software/pid-controller/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/syed/808X_week4/TDD_pid_controller/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

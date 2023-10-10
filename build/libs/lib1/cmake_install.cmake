@@ -1,4 +1,4 @@
-# Install script for directory: /home/surya-software/pid-controller/libs/lib1
+# Install script for directory: /home/syed/808X_week4/TDD_pid_controller/libs/lib1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

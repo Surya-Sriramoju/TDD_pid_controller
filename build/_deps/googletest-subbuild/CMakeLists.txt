@@ -14,8 +14,8 @@ project(googletest-populate NONE)
 include(ExternalProject)
 ExternalProject_Add(googletest-populate
                      "UPDATE_DISCONNECTED" "False" "URL" "https://github.com/google/googletest/archive/refs/tags/v1.14.0.zip"
-                    SOURCE_DIR          "/home/surya-software/pid-controller/build/_deps/googletest-src"
-                    BINARY_DIR          "/home/surya-software/pid-controller/build/_deps/googletest-build"
+                    SOURCE_DIR          "/home/syed/808X_week4/TDD_pid_controller/build/_deps/googletest-src"
+                    BINARY_DIR          "/home/syed/808X_week4/TDD_pid_controller/build/_deps/googletest-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

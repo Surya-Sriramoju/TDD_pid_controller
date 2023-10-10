@@ -1,4 +1,4 @@
-# Install script for directory: /home/surya-software/pid-controller
+# Install script for directory: /home/syed/808X_week4/TDD_pid_controller
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,22 +44,22 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/surya-software/pid-controller/build/_deps/googletest-build/cmake_install.cmake")
+  include("/home/syed/808X_week4/TDD_pid_controller/build/_deps/googletest-build/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/surya-software/pid-controller/build/libs/cmake_install.cmake")
+  include("/home/syed/808X_week4/TDD_pid_controller/build/libs/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/surya-software/pid-controller/build/app/cmake_install.cmake")
+  include("/home/syed/808X_week4/TDD_pid_controller/build/app/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/surya-software/pid-controller/build/test/cmake_install.cmake")
+  include("/home/syed/808X_week4/TDD_pid_controller/build/test/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -70,5 +70,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/surya-software/pid-controller/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/syed/808X_week4/TDD_pid_controller/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
