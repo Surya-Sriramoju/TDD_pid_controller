@@ -9,6 +9,10 @@ This repository pertains to the test driven development exercise. The group memb
 - Shivam sehgal
 - Abrarudiin Syed
 
+# C++ Boilerplate v2 Badges
+![CICD Workflow status](https://github.com/Surya-Sriramoju/TDD_pid_controller/actions/workflows/run-unit-test-and-upload-codecov.yml/badge.svg) [![codecov](https://codecov.io/gh/Surya-Sriramoju/TDD_pid_controller/branch/main/graph/badge.svg)](https://codecov.io/gh/Surya-Sriramoju/TDD_pid_controller) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
+
 ## Part 1 
 The members of the pair for Part 1 of this repository are :
  - Sai Surya Sriramoju (Driver)
